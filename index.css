@@ -1,0 +1,65 @@
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+}
+.quiz-container{
+  position: relative;
+  height: 200px;
+}
+.buttons{
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+    border-color: blue;
+    font-family: Roboto;
+    font-size: 14px;
+}
+.submitbtn{
+    background-color: green;
+    border-color: green;
+    color: white;
+    padding: 6px;
+    font-size: 18px;
+    font-family: Roboto;
+}
+.question{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Roboto;
+}
+.answers{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Roboto;
+}
+.questionno{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Roboto;
+}
+.questionheader{
+  display: flex;
+  justify-content: space-between;
+}
+.answers label{
+  display: block;
+}
+.submit{
+  text-align: center;
+}
+#results{
+  font-size: 18px;
+  text-align:center;
+  margin-top: 10px
+}
